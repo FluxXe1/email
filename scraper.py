@@ -56,7 +56,7 @@ print("")
 
 
 
-user_url =str(input(Fore.WHITE+ '[+] Masukan url: '))
+user_url =str(input(Fore.WHITE+ '[+] Enter A Url: '))
 
 urls = deque([user_url])
 
@@ -66,7 +66,7 @@ emails = set()
 
 count = 0
 
-limit = int(input('[+] Masukan limit pencarian:'))
+limit = int(input('[+] Enter Search Limit:'))
 
 
 
@@ -94,7 +94,7 @@ try:
 
 
 
-               print(f'{count} Memproses {url}')
+               print(f'{count} Process {url}')
 
 
 
@@ -144,9 +144,9 @@ except KeyboardInterrupt:
 
 
 
-print('\n Proses selesai!')
+print('\n Process complete!')
 
-print(f'\n{len(emails)} email ditemukan \n ___________________')
+print(f'\n{len(emails)} email found \n ___________________')
 
 
 
